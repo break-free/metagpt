@@ -41,6 +41,11 @@ cd bf-metagpt
 
 Once completed, enter the toolbox.
 
+[bash]
+----
+toolbox enter metagpt
+----
+
 === Download and setup MetaGPT
 
 Exit the current directory and then download MetaGPT
