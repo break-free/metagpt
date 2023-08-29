@@ -56,9 +56,41 @@ cd ..
 git clone https://github.com/geekan/MetaGPT.git
 ----
 
+Use the following commands to install the necessary packages:
+
+[bash]
+----
+sudo npm install -g @mermaid-js/mermaid-cli
+export PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
+python setup.py install
+----
+
 Once downloaded, follow the instructions at 
 https://github.com/geekan/MetaGPT/tree/main#installation[MetaGPT's `README` 
 file].
+
+== Demonstration
+
+To run MetaGPT, simply use the following command:
+
+[bash]
+----
+python3 startup.py "write a cli snake game based on pygame" --code_review True
+----
+
+To run MetaGPT, simply use the following command:
+
+[bash]
+----
+python3 startup.py "write a cli tic-tac-toe game based on pygame" --code_review True
+----
+
+[NOTE]
+====
+This command usually results in a playable game but mileage may vary! 
+Occasionally, the game will not play and each iteration tends to look slightly 
+different.
+====
 
 == Credits
 
