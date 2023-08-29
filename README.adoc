@@ -1,0 +1,65 @@
+= MetaGPT Demonstration
+
+== Description
+
+The `metagpt` demonstration creates a team of Agents that then creates an
+application based on a sentence provided at startup. 
+
+The technologies used:
+
+* MetaGPT: Provides the package/library that brings this all together.
+
+== Installation
+
+Note these installation instructions assume you are running a Fedora Linux 
+instance with toolbox installed. For installation on other operating systems, 
+follow the steps as executed in the build script.
+
+=== Setup the Environment
+
+Use the following command to download this repository:
+
+[bash]
+----
+git clone https://github.com/break-free/metagpt.git bf-metagpt
+----
+
+[NOTE]
+====
+`bf-metagpt` is used in this case to keep the latter repository download in a 
+separate directory.
+====
+
+Once downloaded enter the directory and run the build script. Note you need an 
+OpenAI API key to run the build script; it will not run without one.
+
+[bash]
+----
+cd bf-metagpt
+./setup/build_metagpt.sh $OPENAI_API_KEY
+----
+
+Once completed, enter the toolbox.
+
+=== Download and setup MetaGPT
+
+Exit the current directory and then download MetaGPT
+
+[bash]
+----
+cd ..
+git clone https://github.com/geekan/MetaGPT.git
+----
+
+Once downloaded, follow the instructions at 
+https://github.com/geekan/MetaGPT/tree/main#installation[MetaGPT's `README` 
+file].
+
+== Credits
+
+* MetaGPT Authors: Thank you for providing a compelling use case for an 
+autonomous team of Agents!
+
+== License
+
+Refer to link:LICENSE[the license].
