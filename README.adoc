@@ -62,7 +62,7 @@ Use the following commands to install the necessary packages:
 ----
 sudo npm install -g @mermaid-js/mermaid-cli
 export PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
-python setup.py install
+sudo python setup.py install
 ----
 
 Once downloaded, follow the instructions at 
