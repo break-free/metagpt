@@ -48,6 +48,7 @@ Exit the current directory and then download MetaGPT
 ```bash
 cd ..
 git clone https://github.com/geekan/MetaGPT.git
+cd MetaGPT
 ```
 
 Use the following commands to install the necessary packages:
