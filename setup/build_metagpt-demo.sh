@@ -9,7 +9,7 @@ if [ $# -ne 1 ]
 fi
 
 # Create container
-NAME=metagpt
+NAME=metagpt-demo
 RUN="toolbox run --container $NAME"
 toolbox rm --force $NAME || true
 toolbox create --container $NAME

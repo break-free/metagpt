@@ -20,25 +20,21 @@ follow the steps as executed in the build script.
 Use the following command to download this repository:
 
 ```bash
-git clone https://github.com/break-free/metagpt.git bf-metagpt
+git clone https://github.com/break-free/metagpt-demo.git
 ```
-
-> [!NOTE]
-> `bf-metagpt` is used in this case to keep the latter repository download in a
-> separate directory.
 
 Once downloaded enter the directory and run the build script. Note you need an 
 OpenAI API key to run the build script; it will not run without one.
 
 ```bash
-cd bf-metagpt
-./setup/build_metagpt.sh $OPENAI_API_KEY
+cd metagpt-demo
+./setup/build_metagpt-demo.sh $OPENAI_API_KEY
 ```
 
 Once completed, enter the toolbox.
 
 ```bash
-toolbox enter metagpt
+toolbox enter metagpt-demo
 ```
 
 ### Download and setup MetaGPT
