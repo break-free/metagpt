@@ -7,7 +7,8 @@ application based on a sentence provided at startup.
 
 The technologies used:
 
-- **MetaGPT**: Provides the package/library that brings this all together.
+- **[MetaGPT](https://github.com/geekan/MetaGPT)**: Provides the package/library
+that brings this all together.
 
 ## Installation
 
